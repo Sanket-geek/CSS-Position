@@ -1,0 +1,19 @@
+ /* Change the position for different div to see how the element reacts to the change */
+
+.box-outer{
+    /* position: relative; */
+}
+.box-middle{
+    /* position: relative; */
+}
+
+.box-inner{
+    position: relative;
+}
+
+.item{
+    
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
