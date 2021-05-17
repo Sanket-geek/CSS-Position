@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Styles -->
+<style>
+    html {
+  scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #24252a; */
+}
+body{
+    background-color: #1c648d;
+    height: 200vh;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: cornsilk;
+    text-align: center;
+    font-size: 60px;
+    background-color: inherit;
+    margin-bottom: 20px;
+}
+h4{
+    margin-bottom: 30px;
+}
+p{
+    font-size: x-large;
+    margin: 20px 10px;
+    color: aliceblue;
+}
+.sticky{
+    width: 100%;
+    background-color: rgb(99, 187, 10);
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+</style>
+
+
+<body>
+    <h1>CSS Postion</h1>
+    <h4>The following is a sticky element</h4>
+    <div class="sticky">
+        This is a sticky element
+    </div>
+    <div class="para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacus eros, consequat nec mollis ac, lobortis nec lacus. Mauris quis tristique mi. Donec facilisis auctor elit. Vivamus lacus arcu, dignissim aliquet accumsan at, facilisis at sem. Phasellus vehicula eu lacus ac sodales. Sed porttitor aliquet viverra. Sed suscipit, elit egestas dignissim pretium, dui leo fermentum lorem, eu rutrum massa velit tempor velit. Sed vitae massa lacus.</p>
+        <p>Nullam porttitor egestas scelerisque. Curabitur posuere ligula nibh, id tempor nisl viverra at. Mauris commodo nisl ac risus fermentum finibus. Phasellus nec mi eu mi auctor ultrices eu ac velit. Proin eget urna mauris. Cras bibendum varius consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula arcu et mollis dictum.</p>
+        <p>Mauris erat nisi, luctus at tortor a, facilisis porta est. Pellentesque efficitur euismod velit. Suspendisse nec tortor libero. Nunc maximus, sem ac mollis varius, felis felis euismod nulla, ut vehicula neque magna et sapien. Mauris lacus leo, laoreet eget tellus nec, posuere venenatis felis. Vestibulum et tortor a metus facilisis bibendum. Aliquam a finibus enim, nec mattis magna. Maecenas nec metus elit.</p>
+        <p>Cras tincidunt eros odio, vel pulvinar urna consequat id. Quisque congue, est sed egestas sagittis, quam sem tempor dui, sit amet rhoncus magna urna et justo. Phasellus sed sapien dui. Proin nec nibh diam. Praesent non consectetur elit. Maecenas porta sapien diam, vitae venenatis ipsum sollicitudin ac. Donec porta nibh sit amet nisi condimentum venenatis mattis at tortor. Proin mi magna, pulvinar in ex quis, hendrerit bibendum neque. Sed vel egestas ipsum, non tincidunt magna. Curabitur ac ultricies diam, laoreet facilisis felis. Pellentesque molestie mauris vel felis molestie placerat. Aliquam pretium feugiat ultricies.</p>
+        <p>Donec pharetra, ipsum at pulvinar luctus, velit magna cursus est, in porttitor est ligula quis ipsum. Vestibulum ornare lectus quis nunc elementum tristique. Nullam venenatis lobortis scelerisque. Pellentesque tempor scelerisque erat, ut pretium lectus tempus at. Vestibulum ac nunc lorem. Phasellus sed dui vitae est pretium semper. Curabitur congue varius nisl vitae ultrices. Nullam eros libero, facilisis eu malesuada eu, maximus ut sapien. Nam pretium diam orci, fermentum accumsan nisl commodo id.</p>
+        <p>Morbi sit amet urna ut nisi commodo consequat. Etiam blandit facilisis mi, non feugiat lorem mollis id. Ut elementum dignissim lacus, id efficitur augue lacinia non. Sed bibendum nulla et sapien tempor, in sodales nulla ullamcorper. Donec ut cursus orci. Curabitur accumsan molestie metus, vitae iaculis magna. Aenean suscipit ligula a sollicitudin porta. Sed tempus elit eu tortor bibendum pellentesque. Donec sagittis, lorem sit amet scelerisque bibendum, nunc nulla molestie dui, non iaculis sem arcu in neque.</p>
+        <p>Cras sed neque vitae augue tincidunt accumsan a ut nulla. Mauris porttitor ac velit sit amet placerat. Proin congue orci a commodo efficitur. Vestibulum tristique elit in arcu interdum, sit amet interdum nibh maximus. Aliquam vitae lorem leo. Etiam rhoncus blandit porttitor. Nulla tincidunt felis et metus pharetra mollis. Suspendisse tempus nisi in leo sodales, at finibus risus congue. Nullam pharetra congue tellus sed sagittis.</p>
+        <p>Fusce egestas sit amet urna eu porttitor. Aliquam vitae venenatis purus, at feugiat diam. Suspendisse potenti. Proin tempor ut urna ac ultricies. In hac habitasse platea dictumst. Nulla sodales tristique libero ut dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur diam eget imperdiet condimentum.</p>
+        <p>Fusce egestas sit amet urna eu porttitor. Aliquam vitae venenatis purus, at feugiat diam. Suspendisse potenti. Proin tempor ut urna ac ultricies. In hac habitasse platea dictumst. Nulla sodales tristique libero ut dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur diam eget imperdiet condimentum.</p>
+        <p>Nunc leo dui, facilisis id blandit et, ullamcorper tempor turpis. Vestibulum ligula ligula, consequat vel cursus sit amet, sollicitudin ut diam. Maecenas iaculis in leo id volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam porta quis nibh non suscipit. Mauris consectetur elit a neque mollis euismod. Aliquam rutrum ante nec nisl bibendum vestibulum. Aenean dignissim risus tellus, et eleifend magna egestas vel. Proin at rutrum velit. Duis nulla velit, gravida id maximus nec, facilisis vitae leo. Phasellus at eros ut neque vehicula lobortis a vel velit. In facilisis augue at mattis luctus. Ut aliquam leo quam, nec porta dui imperdiet at.</p>
+    </div>
+</body>
+</html>
